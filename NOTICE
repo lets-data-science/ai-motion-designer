@@ -1,0 +1,9 @@
+AI Motion Designer
+Copyright 2026 Let's Data Science
+Built by LDS Team.
+
+This LDS educational application is licensed under Apache License 2.0.
+HyperFrames is a separate dependency by HeyGen, licensed Apache-2.0.
+GSAP is a separate dependency under its own Standard License. See
+node_modules/gsap/LICENSE. No HeyGen affiliation or endorsement is implied.
+The LDS name and logo identify the original project; this license does not grant trademark rights.

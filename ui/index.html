@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>AI Motion Designer · LDS</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="/"
+        ><img src="/lds-logo.svg" alt="Let's Data Science" /><span
+          >AI Motion Designer<small>An LDS project</small></span
+        ></a
+      >
+      <div class="header-actions">
+        <span class="local"><i></i> Local workspace</span
+        ><button id="new-project" class="quiet">
+          New storyboard <span aria-hidden="true">＋</span>
+        </button>
+      </div>
+    </header>
+    <main id="app"></main>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <script type="module" src="/main.mjs"></script>
+  </body>
+</html>
