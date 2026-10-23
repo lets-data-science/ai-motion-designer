@@ -14,11 +14,13 @@ if (!chromePath())
   throw new Error(
     "Install Google Chrome, or set CHROME_PATH before running setup.",
   );
+let settings = "Your existing .env.local was kept.";
 try {
   await access(".env.local");
 } catch {
   await copyFile(".env.example", ".env.local");
+  settings = "Created .env.local from .env.example.";
 }
 console.log(
-  "Ready. Your existing settings were preserved. Run npm start and open http://localhost:3082.",
+  `Ready. ${settings} Run npm start and open http://localhost:3082.`,
 );

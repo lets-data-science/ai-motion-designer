@@ -2,7 +2,11 @@
 
 Build an educational motion-graphics editor with Gemini and **real HyperFrames**. Plan scenes, edit their words and timing, preview a seekable animation, and render a 1280 × 720 MP4 on your computer.
 
-Built by **LDS Team**. This is an LDS build-along companion application, version **1.0.0**. It is not a hosted video service. Start with [docs/BUILD.md](docs/BUILD.md).
+Built by **LDS Team**. This is an LDS build-along companion application, version **1.0.1**. It is not a hosted video service. Start with [docs/BUILD.md](docs/BUILD.md).
+
+![AI Motion Designer editing a storyboard and previewing the animation](docs/media/preview.gif)
+
+**Build it step by step:** the free guide on [Let's Data Science](https://letsdatascience.com/projects/ai-motion-designer) walks through each piece, with checks you can run, hints and screen recordings.
 
 ## Run locally
 
